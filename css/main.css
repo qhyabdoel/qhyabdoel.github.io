@@ -35,6 +35,11 @@ nav ul li, footer ul li {
     color: #f1f1f1;
 }
 
+.container {
+    margin-left: 160px; /* Same as the width of the sidenav */    
+    padding: 0px 10px;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
