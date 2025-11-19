@@ -1,5 +1,3 @@
 export default function Home() {
-  return (
-    <p>Is it wotks?</p>
-  )
+  return <p>Hi, my name is Kiki Abdulloh.</p>;
 }
