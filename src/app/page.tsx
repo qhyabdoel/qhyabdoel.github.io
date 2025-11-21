@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { ThemeToggle } from "./theme-toggle";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,15 +21,24 @@ export default function Home() {
         </div>
       </nav>
       {/* Main Content */}
-      <section className="w-full flex">
+      <section className="w-full md:flex">
         <div className="flex-1">
           <p>
-            {`Welcome to my personal website! I'm Kiki Abdulloh, a software
-          developer passionate about building web applications. Feel free to
-          explore my projects and get in touch!`}
+            So this is my personal website. I built it using Next.js and
+            Tailwind CSS. You can change the theme using the button on the top
+            right corner.
           </p>
+          <p className="mt-4">You can find the source code on my GitHub.</p>
         </div>
-        <div className="flex-1"></div>
+        <div className="flex-1 mt-8 md:mt-0">
+          <Image
+            src="/IMG20.jpg"
+            alt="Kiki Abdulloh"
+            width={96}
+            height={96}
+            className="rounded-full md:ml-auto"
+          />
+        </div>
       </section>
     </main>
   );
