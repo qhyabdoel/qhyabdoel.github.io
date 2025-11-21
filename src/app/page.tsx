@@ -39,14 +39,25 @@ export default function Home() {
             height={96}
             className="rounded-full md:ml-auto"
           />
-          <div className="md:text-right mt-8">
-            <Link
-              className="border px-2 py-1 rounded text-sm"
-              href="https://medium.com/@kikiabdull"
-              target="_blank"
-            >
-              My Articles
-            </Link>
+          <div className="md:text-right mt-8 flex flex-col gap-4">
+            <p>
+              <Link
+                className="border px-2 py-1 rounded text-sm"
+                href="https://medium.com/@kikiabdull"
+                target="_blank"
+              >
+                My Articles
+              </Link>
+            </p>
+
+            <p>
+              <Link
+                className="border px-2 py-1 rounded text-sm"
+                href="mailto:qhyabdoel@gmail.com"
+              >
+                qhyabdoel@gmail.com
+              </Link>
+            </p>
           </div>
         </div>
       </section>
