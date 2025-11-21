@@ -1,6 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { ThemeToggle } from "./theme-toggle";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -38,6 +39,15 @@ export default function Home() {
             height={96}
             className="rounded-full md:ml-auto"
           />
+          <div className="md:text-right mt-8">
+            <Link
+              className="border px-2 py-1 rounded text-sm"
+              href="https://medium.com/@kikiabdull"
+              target="_blank"
+            >
+              My Articles
+            </Link>
+          </div>
         </div>
       </section>
     </main>
