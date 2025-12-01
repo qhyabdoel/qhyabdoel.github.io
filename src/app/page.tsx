@@ -23,39 +23,40 @@ export default function Home() {
       </nav>
       {/* Main Content */}
       <section className="w-full md:flex">
-        <div className="flex-1">
+        <div className="flex-1 space-y-4">
+          <p>I am Kiki Abdulloh, a full stack developer.</p>
           <p>
-            So this is my personal website. I built it using Next.js and
-            Tailwind CSS. You can change the theme using the button on the top
-            right corner.
+            In 2014, I graduated from STMIK LPKIA Bandung and started working as
+            a web developer creating websites using PHP and MySQL.
           </p>
-          <p className="mt-4">You can find the source code on my GitHub.</p>
+          <p>
+            And then I moved to jakarta to work as a frontend developer. Using
+            javascript framwork called vue.js. I also worked as a full stack
+            developer using React, Express and MongoDB.
+          </p>
         </div>
-        <div className="flex-1 mt-8 md:mt-0">
+        <div className="flex-1 mt-12 md:mt-0">
           <Image
-            src="/IMG20.jpg"
+            src="/img-21.jpg"
             alt="Kiki Abdulloh"
-            width={96}
-            height={96}
+            width={70}
+            height={70}
             className="rounded-full md:ml-auto"
           />
-          <div className="md:text-right mt-8 flex flex-col gap-4">
+          <div className="md:text-right mt-8 flex flex-col gap-2 text-sm underline">
             <p>
-              <Link
-                className="border px-2 py-1 rounded text-sm"
-                href="https://medium.com/@kikiabdull"
-                target="_blank"
-              >
+              <Link href="https://medium.com/@kikiabdull" target="_blank">
                 My Articles
               </Link>
             </p>
 
             <p>
-              <Link
-                className="border px-2 py-1 rounded text-sm"
-                href="mailto:qhyabdoel@gmail.com"
-              >
-                qhyabdoel@gmail.com
+              <Link href="mailto:qhyabdoel@gmail.com">qhyabdoel@gmail.com</Link>
+            </p>
+
+            <p>
+              <Link href="https://www.linkedin.com/in/kiki-abdulloh-2b9645121/">
+                LinkedIn
               </Link>
             </p>
           </div>
