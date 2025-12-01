@@ -55,7 +55,10 @@ export default function Home() {
             </p>
 
             <p>
-              <Link href="https://www.linkedin.com/in/kiki-abdulloh-2b9645121/">
+              <Link
+                href="www.linkedin.com/in/kiki-abdulloh-b55b147a"
+                target="_blank"
+              >
                 LinkedIn
               </Link>
             </p>
