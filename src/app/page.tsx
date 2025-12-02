@@ -56,7 +56,7 @@ export default function Home() {
 
             <p>
               <Link
-                href="www.linkedin.com/in/kiki-abdulloh-b55b147a"
+                href="https://www.linkedin.com/in/kiki-abdulloh-b55b147a"
                 target="_blank"
               >
                 LinkedIn
