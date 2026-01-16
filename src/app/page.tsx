@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { ThemeToggle } from "./theme-toggle";
+import { ViewCounter } from "@/components/view-counter";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,18 +44,18 @@ export default function Home() {
             height={70}
             className="rounded-full md:ml-auto"
           />
-          <div className="md:text-right mt-8 flex flex-col gap-2 text-sm underline">
-            <p>
+          <div className="md:text-right mt-8 flex flex-col gap-2 text-sm">
+            <p className="underline">
               <Link href="https://medium.com/@kikiabdull" target="_blank">
                 My Articles
               </Link>
             </p>
 
-            <p>
+            <p className="underline">
               <Link href="mailto:qhyabdoel@gmail.com">qhyabdoel@gmail.com</Link>
             </p>
 
-            <p>
+            <p className="underline">
               <Link
                 href="https://www.linkedin.com/in/kiki-abdulloh-b55b147a"
                 target="_blank"
@@ -62,6 +63,7 @@ export default function Home() {
                 LinkedIn
               </Link>
             </p>
+            <ViewCounter />
           </div>
         </div>
       </section>
