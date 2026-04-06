@@ -30,11 +30,38 @@ export default function Home() {
             In 2014, I graduated from STMIK LPKIA Bandung and started working as
             a web developer creating websites using PHP and MySQL.
           </p>
-          <p>
-            And then I moved to jakarta to work as a frontend developer. Using
-            javascript framwork called vue.js. I also worked as a full stack
-            developer using React, Express and MongoDB.
-          </p>
+          <p>And then I moved to jakarta.</p>
+          <p>My Projects:</p>
+          <ul className="list-disc list-inside">
+            <li>Develop website with AI Integration</li>
+            <li>
+              Create a saas dashboard with user authentication, role-based
+              access control, membership, payment, subscription, analytics, and
+              domain management features.
+            </li>
+            <li>
+              Datavisualization dashboard with subcsription and payment that
+              connect to shopify.
+            </li>
+            <li>
+              <a href="paques.id" className="text-blue-500">
+                Paques
+              </a>{" "}
+              Data Solution Frontend
+            </li>
+            <li>E-Commerce Platform</li>
+            <li>Mobile Application</li>
+            <li>Projects Marketplace</li>
+          </ul>
+          <p>My Skills:</p>
+          <ul className="list-disc list-inside">
+            <li>
+              Frontend: React.js, React Native, Angular, Vue.js and Tailwind
+            </li>
+            <li>Backend: Node.js, PHP, Python and Go</li>
+            <li>Database: MySQL, PostgreSQL and MongoDB</li>
+            <li>Others: Git, Docker, Vercel, Stripe and Shopify</li>
+          </ul>
         </div>
         <div className="flex-1 mt-12 md:mt-0">
           <Image
