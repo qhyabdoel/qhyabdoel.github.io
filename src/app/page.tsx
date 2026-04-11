@@ -73,8 +73,8 @@ export default function Home() {
           />
           <div className="md:text-right mt-8 flex flex-col gap-2 text-sm">
             <p className="underline">
-              <Link href="https://medium.com/@kikiabdull" target="_blank">
-                My Articles
+              <Link href="https://drive.google.com/file/d/1DY9yXbpkgoYP-Oh_L0ie3fKS2H_o7npz/view" target="_blank">
+                My CV
               </Link>
             </p>
 
@@ -88,6 +88,12 @@ export default function Home() {
                 target="_blank"
               >
                 LinkedIn
+              </Link>
+            </p>
+
+            <p className="underline">
+              <Link href="https://medium.com/@kikiabdull" target="_blank">
+                My Articles
               </Link>
             </p>
             <ViewCounter />
