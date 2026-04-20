@@ -9,10 +9,10 @@ export const ViewCounter = () => {
         const fetchViews = async () => {
             try {
                 const response = await fetch(
-                    "https://api.counterapi.dev/v1/qhyabdoel/qhyabdoel.github.io/up"
+                    "https://api.counterapi.dev/v2/kiki-abdullohs-team-3817/first-counter-3817/up"
                 );
                 const data = await response.json();
-                setViews(data.count);
+                setViews(data.data.up_count);
             } catch (error) {
                 console.error("Error fetching view count:", error);
             }
