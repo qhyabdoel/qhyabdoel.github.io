@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div className="flex-1 mt-12 md:mt-0">
           <Image
-            src="/img-21.jpg"
+            src="/img-22.jpg"
             alt="Kiki Abdulloh"
             width={70}
             height={70}
