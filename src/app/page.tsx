@@ -25,7 +25,7 @@ export default function Home() {
       {/* Main Content */}
       <section className="w-full md:flex">
         <div className="flex-1 space-y-4">
-          <p>I am Kiki Abdulloh, a full stack developer.</p>
+          <p>{"I'm a full stack developer."}</p>
           <p>
             In 2014, I graduated from STMIK LPKIA Bandung and started working as
             a web developer creating websites using PHP and MySQL.
